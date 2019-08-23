@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="I5@172.17.0.1" read-only="true" uuid="9a29ee07-dfb7-402e-9fa8-749248469a72">
+      <driver-ref>db2.jtopen</driver-ref>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>com.ibm.as400.access.AS400JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:as400://172.17.0.1/I5</jdbc-url>
+      <driver-properties>
+        <property name="retrieveMessagesFromServerOnGetMessage" value="true" />
+        <property name="clientProgramName" value="DataGrip" />
+        <property name="prompt" value="false" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
