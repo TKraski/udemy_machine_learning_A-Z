@@ -2,6 +2,8 @@ import chart_studio.plotly as py
 import cufflinks as cf
 import pandas as pd
 import numpy as np
+print(cf.version)
+
 
 
 #fig = go.Figure(data=go.Bar(y=[2, 3, 1]))
