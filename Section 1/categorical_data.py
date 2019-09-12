@@ -20,7 +20,7 @@ X[:, 1:3] = imputer.transform(X[:, 1:3])
 # Encoding the Independent Variable
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 labelencoder_X = LabelEncoder()
-X[:, 0] = labelencoder_X.fit_transform(X[:, 0])
+X[:, 1] = labelencoder_X.fit_transform(X[:, 1])
 onehotencoder = OneHotEncoder(categorical_features = [0])
 X = onehotencoder.fit_transform(X).toarray()
 # Encoding the Dependent Variable
